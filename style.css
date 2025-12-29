@@ -1,0 +1,70 @@
+:root {
+    --margin-sm: 1rem;
+    --margin-md: 2rem;
+    --margin-lg: 3rem;
+
+    --border-r-sm: 12px;
+    --border-r-md: 24px;
+    --border-r-lg: 36px;
+      
+    --bg-main: #0f172a;     
+    --bg-surface: #1e293b;   
+    --text-primary: #e5e7eb; 
+    --text-muted: #9ca3af; 
+    --accent: #38bdf8;
+}
+
+b {
+    color: var(--accent);
+}
+
+.section {
+    margin: 5rem;
+}
+
+.heading {
+    font-size: 5rem;
+    justify-self: center;
+    margin: var(--margin-lg);
+}
+
+.subheading {
+    font-size: 3rem;
+    margin-bottom: var(--margin-md);
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+#img-1 {
+    background-color: var(--bg-surface);
+    border-radius: var(--border-r-md);
+    border: black solid;
+    margin-left: var(--margin-lg);
+    margin-right: var(--margin-lg);
+    height: 50rem;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--margin-lg);
+    
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
