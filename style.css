@@ -14,12 +14,19 @@
     --accent: #38bdf8;
 }
 
+.project-img {
+    width: 30rem;
+    border-radius: var(--border-r-md);
+    border: black solid;
+}
+
 b {
-    color: var(--accent);
+    color: var(--accent)
 }
 
 .section {
     margin: 5rem;
+    
 }
 
 .heading {
