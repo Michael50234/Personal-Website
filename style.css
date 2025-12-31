@@ -12,12 +12,14 @@
     --text-primary: #e5e7eb; 
     --text-muted: #9ca3af; 
     --accent: #38bdf8;
+    --bg-footer: #e6eef6;
 }
 
 .project-img {
     width: 30rem;
     border-radius: var(--border-r-md);
     border: black solid;
+    filter: drop-shadow(0 -6mm 4mm rgb(160 0 210));
 }
 
 b {
@@ -55,6 +57,7 @@ body {
     margin-left: var(--margin-lg);
     margin-right: var(--margin-lg);
     height: 50rem;
+    filter: drop-shadow(0 -6mm 4mm rgb(160 0 210));
 }
 
 #intro {
@@ -69,7 +72,6 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap
 }
 
 
@@ -114,13 +116,46 @@ body {
 
 .contact_section {
     display: flex;
-    gap: var(--margin-md);
+    flex-direction: column;
+    gap: var(--margin-sm);
 }
 
-#git {
-    margin-right: auto;
-}
 
 #git a {
     color: white;
+}
+
+.contact_section p {
+    margin-right: 1rem;
+}
+
+nav {
+    height: 5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    background-color: var(--bg-surface);
+    display: flex;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none; 
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: var(--margin-md)
+}
+
+
+#contact-info h1 {
+    margin-top: 2rem;
+    color: white;
+    margin-top: 0px;
+    margin-bottom;: var(--margin-md)
+}
+
+#mambo {
+    border-radius: var(--border-r-md);
 }
