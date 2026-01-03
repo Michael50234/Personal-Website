@@ -168,3 +168,15 @@ nav ul a:hover {
     border-radius: var(--border-r-md);
 }
 
+
+.svg-img {
+    height: 40px;
+    width: auto;
+
+}
+
+.line {
+    display: flex;
+    gap: var(--margin-sm);
+    align-items: center;
+}

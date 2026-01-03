@@ -41,11 +41,13 @@ body {
 
 .image-1 {
     border-radius: var(--border-r-lg);
+    filter: drop-shadow(0 -6mm 4mm rgb(160 0 210));
 }
 
 .card-img {
     height: 50rem;
     border-radius: var(--border-r-lg);
+    filter: drop-shadow(0 -6mm 4mm rgb(160 0 210));
 }
 
 #implementation {
