@@ -1,0 +1,113 @@
+:root {
+    --margin-sm: 1rem;
+    --margin-md: 2rem;
+    --margin-lg: 3rem;
+
+    --border-r-sm: 12px;
+    --border-r-md: 24px;
+    --border-r-lg: 36px;
+      
+    --bg-main: #0f172a;     
+    --bg-surface: #1e293b;   
+    --text-primary: #e5e7eb; 
+    --text-muted: #9ca3af; 
+    --accent: #38bdf8;
+    --bg-footer: #e6eef6;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.section {
+    margin-top: 6rem;
+    margin-bot: 6rem;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--margin-lg);
+}
+
+.description {
+    max-width: 60ch;
+}
+
+.image-1 {
+    border-radius: var(--border-r-lg);
+}
+
+.card-img {
+    height: 50rem;
+    border-radius: var(--border-r-lg);
+}
+
+#implementation {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: var(--margin-lg);
+
+}
+
+.card {
+    place-items: center;
+    border-radius: var(--border-r-lg);
+    background-color: var(--bg-surface);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 1rem;
+}
+
+
+nav {
+    height: 5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    background-color: var(--bg-surface);
+    display: flex;
+    z-index: 1;
+    margin-bot: var(--margin-lg);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none; 
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: var(--margin-md)
+}
+
+nav ul a {
+    color: white;
+    transition: color 0.2s;
+}
+
+nav ul a:hover {
+    color: green;
+}
+
+#contact-info h1 {
+    margin-top: 2rem;
+    color: white;
+    margin-top: 0px;
+    margin-bottom;: var(--margin-md)
+}
+
+#mambo {
+    border-radius: var(--border-r-md);
+}
+
+.heading {
+    font-size: 5rem;
+    justify-self: center;
+    margin: var(--margin-lg);
+}

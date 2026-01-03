@@ -88,7 +88,7 @@ body {
     font-size: 1.5rem;
 }
 
-#button_1 {
+.btn_1 {
     margin-top: auto;
     font-size: 1.5rem;
     color: var(--text-primary);
@@ -148,6 +148,14 @@ nav ul {
     margin-right: var(--margin-md)
 }
 
+nav ul a {
+    color: white;
+    transition: color 0.2s;
+}
+
+nav ul a:hover {
+    color: green;
+}
 
 #contact-info h1 {
     margin-top: 2rem;
@@ -159,3 +167,4 @@ nav ul {
 #mambo {
     border-radius: var(--border-r-md);
 }
+
